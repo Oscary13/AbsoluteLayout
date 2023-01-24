@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AbsoluteLayout.AbsoluteLayoutDemo"
+             Title="AbsoluteLayoutDemo"
+             BackgroundColor="DarkRed">
+    <AbsoluteLayout>
+        <!--x,y,w,h-->
+        <Button Text="Hola como estas" AbsoluteLayout.LayoutBounds="100,0,200,100" CornerRadius="300"/>
+        <Button Text="Hola como estas" 
+                AbsoluteLayout.LayoutBounds=".5,.5,.5,.5" CornerRadius="100" WidthRequest="100" HeightRequest="100"
+                AbsoluteLayout.LayoutFlags="All"/>
+    </AbsoluteLayout>
+</ContentPage>

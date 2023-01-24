@@ -1,0 +1,1 @@
+C:\Users\EQUIPO-2\source\repos\AbsoluteLayout\AbsoluteLayout\AbsoluteLayout.csproj;x64
